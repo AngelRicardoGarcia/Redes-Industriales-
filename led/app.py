@@ -2,10 +2,10 @@ from flask import Flask, render_template, request, redirect, url_for, session, j
 from werkzeug.security import check_password_hash
 import socket
 
-APP_USER = "ricardo" #Ejemplo diana
-APP_PW_HASH = "scrypt:32768:8:1$AblkDUveQEMCaBQr$5e685cd17e11bda737cbe6051d0fe28b18e90473441144a50e59d658bfc205ac18063e29a62d2b2f197d5586c55897b456430520bb84b7aceb7fd71ea716057e"
+APP_USER = "XXXXXXX" #Ejemplo diana
+APP_PW_HASH = "XXXXXXX"
       # Ejemplo: "scrypt:32768:8:1$...$..."
-SECRET_KEY = "REDES" # Pon una clave larga y aleatoria 
+SECRET_KEY = "XXXXXXXX" # Pon una clave larga y aleatoria 
 
 
 TCP_HOST = "127.0.0.1"
